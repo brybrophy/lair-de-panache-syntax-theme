@@ -1,12 +1,18 @@
 {
-	"name": "lair-de-panache-syntax",
-	"theme": "syntax",
-	"version": "0.1.0",
-	"description": "L'Air De Panache syntax theme for Atom.",
-	"keywords": ["grand", "budapest", "hotel", "panache", "theme"],
-	"repository": "https://github.com/brybrophy/lair-de-panache-syntax-theme",
-	"license": "MIT",
-	"engines": {
-		"atom": ">0.59.0"
-	}
+  "name": "lair-de-panache-syntax",
+  "theme": "syntax",
+  "version": "0.2.0",
+  "description": "L'Air De Panache syntax theme for Atom.",
+  "keywords": [
+    "grand",
+    "budapest",
+    "hotel",
+    "panache",
+    "theme"
+  ],
+  "repository": "https://github.com/brybrophy/lair-de-panache-syntax-theme",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.59.0"
+  }
 }
