@@ -1,0 +1,230 @@
+.comment {
+  color: @comment;
+}
+
+.entity {
+  &.name.type {
+    color: @tulip-tree;
+  }
+
+  &.name.function {
+    color: @picton-blue;
+  }
+
+  &.name.class, &.name.type.class {
+    color: @tulip-tree;
+  }
+
+  &.name.section {
+    color: @picton-blue;
+  }
+
+  &.name.tag {
+    color: @orange-roughy;
+  }
+
+  &.other.attribute-name {
+    color: @rajah;
+
+    &.id {
+      color: @picton-blue;
+    }
+  }
+
+  &.other.inherited-class {
+    color: @orange-roughy;
+  }
+}
+
+.keyword {
+  color: @petite-orchid;
+
+  &.control {
+    color: @petite-orchid;
+  }
+
+  &.operator {
+    color: @syntax-text-color;
+  }
+
+  &.other.special-method {
+    color: @picton-blue;
+  }
+
+  &.other.unit {
+    color: @rajah;
+  }
+}
+
+.storage {
+  color: @petite-orchid;
+}
+
+.constant {
+  color: @rajah;
+
+  &.character.escape {
+    color: @lavender-blue;
+  }
+
+  &.numeric {
+    color: @rajah;
+  }
+
+  &.other.color {
+    color: @lavender-blue;
+  }
+
+  &.other.symbol {
+    color: @cupid;
+  }
+}
+
+.variable {
+  color: @orange-roughy;
+
+  &.interpolation {
+    color: darken(@orange-roughy, 10%);
+  }
+
+  &.parameter.function {
+    color: @syntax-text-color;
+  }
+}
+
+.invalid.illegal {
+  background-color: @orange-roughy;
+  color: @syntax-background-color;
+}
+
+.string {
+  color: @cupid;
+
+  &.regexp {
+    color: @lavender-blue;
+
+    .source.ruby.embedded {
+      color: @rajah;
+    }
+  }
+
+  &.other.link {
+    color: @orange-roughy;
+  }
+}
+
+.punctuation {
+  &.definition {
+    &.comment {
+      color: @comment;
+    }
+
+    &.string,
+    &.variable,
+    &.parameters,
+    &.array {
+      color: @syntax-text-color;
+    }
+
+    &.heading,
+    &.identity {
+      color: @picton-blue;
+    }
+
+    &.bold {
+      color: @tulip-tree;
+      font-style: bold;
+    }
+
+    &.italic {
+      color: @petite-orchid;
+      font-style: italic;
+    }
+  }
+
+  &.section.embedded {
+    color: @tulip-tree;
+    background-color: fadeout(@tulip-tree, 93%);
+  }
+}
+
+.support {
+  &.class {
+    color: @tulip-tree;
+  }
+
+  &.function  {
+    color: @picton-blue;
+
+    &.any-method {
+      color: @picton-blue;
+    }
+  }
+}
+
+.meta {
+  &.class {
+    color: @tulip-tree;
+  }
+
+  &.link {
+    color: @rajah;
+  }
+
+  &.require {
+    color: @picton-blue;
+  }
+
+  &.selector {
+    color: @petite-orchid;
+  }
+
+  &.separator {
+    background-color: @current-line;
+    color: @syntax-text-color;
+  }
+}
+
+.none {
+  color: @syntax-text-color;
+}
+
+.markup {
+  &.bold {
+    color: @rajah;
+    font-style: bold;
+  }
+
+  &.changed {
+    color: @petite-orchid;
+  }
+
+  &.deleted {
+    color: @orange-roughy;
+  }
+
+  &.italic {
+    color: @petite-orchid;
+    font-style: italic;
+  }
+
+  &.heading .punctuation.definition.heading {
+    color: @picton-blue;
+  }
+
+  &.inserted {
+    color: @cupid;
+  }
+
+  &.list {
+    color: @orange-roughy;
+  }
+
+  &.quote {
+    color: @rajah;
+  }
+
+  &.raw.inline {
+    color: @cupid;
+  }
+}
